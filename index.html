@@ -3,211 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Billy K's Mobile Barber Shop | Pakenham & Surrounds</title>
-    <meta name="description" content="Professional mobile barbering with over 32 years of experience. Home visits for young, old, and challenging clients in Pakenham, VIC.">
+    <title>Billy K's Mobile Barber Shop | Master Mobile Barber</title>
+    <meta name="description" content="Master Mobile Barbering by Billy K. Over 32 years of experience providing classic home visits in Pakenham, VIC.">
     <link rel="stylesheet" href="styles.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <!-- FontAwesome for Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Header Navigation -->
+    <!-- Top Navigation Header -->
     <header class="navbar">
-        <div class="container nav-container">
-            <a href="#" class="logo">BILLY K'S <span>MOBILE BARBER</span></a>
-            <nav>
-                <ul class="nav-links" id="navLinks">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#why-choose">Why Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <a href="https://wa.me/61431540492?text=Hi%20Billy,%20I'd%20like%20to%20book%20a%20barber%20appointment." target="_blank" class="btn btn-header">Book via WhatsApp</a>
-            <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars"></i>
-            </button>
+        <div class="nav-left">
+            <a href="#" class="brand-logo">H</a>
+        </div>
+        <nav class="nav-center">
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#pricing">PRICING</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <div class="nav-right">
+            <a href="https://wa.me/61431540492?text=Hi%20Billy,%20I'd%20like%20to%20book%20an%20appointment." target="_blank" class="cart-icon" title="Book via WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span class="badge-count">1</span>
+            </a>
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <button class="mobile-toggle" id="menuToggle"><i class="fa-solid fa-bars"></i></button>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
+    <!-- Hero Section with Vintage Barber Emblem -->
+    <section id="home" class="hero">
         <div class="hero-overlay"></div>
-        <div class="container hero-content">
-            <span class="badge">32+ Years of Experience</span>
-            <h1>Master Barbering Delivered Right to Your Doorstep</h1>
-            <p>Convenient, patient, and professional home-visit barber services in Pakenham, VIC and surrounding areas. Welcoming clients of all ages and needs.</p>
-            <div class="hero-buttons">
-                <a href="https://wa.me/61431540492?text=Hi%20Billy,%20I'd%20like%20to%20book%20a%20mobile%20barber%20appointment." target="_blank" class="btn btn-primary">
-                    <i class="fa-brands fa-whatsapp"></i> Book via WhatsApp
-                </a>
-                <a href="tel:+61431540492" class="btn btn-secondary">
-                    <i class="fa-solid fa-phone"></i> Call +61 431 540 492
-                </a>
+        <div class="hero-content">
+            <div class="vintage-emblem">
+                <i class="fa-solid fa-scissors emblem-scissors"></i>
+                <div class="emblem-text">BARBER</div>
+            </div>
+            <h1 class="main-title">BILLY K'S</h1>
+            <h2 class="sub-title">MOBILE BARBER SHOP</h2>
+            <div class="divider-cross"><span>&#9986;</span></div>
+            <p class="tagline">MASTER MOBILE BARBER</p>
+            <p class="est">EST. <span class="cross-x">&times;</span> 1991</p>
+        </div>
+    </section>
+
+    <!-- Section 1: Precision Cuts Split Grid -->
+    <section id="about" class="editorial-split">
+        <div class="text-block dark-bg">
+            <div class="inner-content">
+                <h3 class="italic-heading">Precision cuts for</h3>
+                <h2 class="block-title">THE MODERN CLIENT</h2>
+                <div class="cross-divider">&times;</div>
+                <p class="description">
+                    With over 32 years of mobile barbering expertise, Billy K delivers premium grooming right to your door. From classic trims to specialized care, we welcome young, old, and clients with unique needs in Pakenham & surrounds.
+                </p>
+            </div>
+        </div>
+        <div class="image-block img-van">
+            <div class="img-overlay"></div>
+        </div>
+    </section>
+
+    <!-- Section 2: Heritage Split Grid (Reversed) -->
+    <section id="services" class="editorial-split reverse">
+        <div class="image-block img-cutting">
+            <div class="img-overlay"></div>
+        </div>
+        <div class="text-block light-bg">
+            <div class="inner-content">
+                <h2 class="block-title dark-text">HERITAGE OF CLASSIC CRAFT.</h2>
+                <div class="cross-divider dark-text">&times;</div>
+                <p class="description dark-text">
+                    Convenient home visits tailored to your individual comfort. Patient, reliable, and accommodating service whether you need a quick haircut at home or gentle attention for seniors and kids.
+                </p>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="container grid-2">
-            <div class="about-text">
-                <h2 class="section-title">About Billy K</h2>
-                <p class="highlight-text">Bringing three decades of precision cutting and personal service directly to your home.</p>
-                <p>With over 32 years of professional experience, Billy K provides high-quality mobile haircuts and styling for clients who value convenience, comfort, and exceptional craftsmanship.</p>
-                <p>Whether it’s a quick trim, a full styling session, or patient service for young children or seniors, Billy creates a stress-free environment tailored to each individual.</p>
-                <div class="info-pills">
-                    <span class="pill"><i class="fa-solid fa-house-user"></i> Home Visits</span>
-                    <span class="pill"><i class="fa-solid fa-clock"></i> Always Open</span>
-                    <span class="pill"><i class="fa-solid fa-location-dot"></i> Pakenham, VIC</span>
-                </div>
-            </div>
-            <div class="about-card">
-                <div class="card-content">
-                    <i class="fa-solid fa-scissors card-icon"></i>
-                    <h3>Specialized & Patient Care</h3>
-                    <p>Welcoming young children, seniors, and clients with special requirements or challenging needs in the comfort of their own environment.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="section bg-alt">
-        <div class="container">
-            <div class="section-header">
-                <h2>Our Services</h2>
-                <p>Affordable, top-quality mobile haircuts and grooming.</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <i class="fa-solid fa-child"></i>
-                    <h3>Young & Kids' Cuts</h3>
-                    <p>Patient, gentle haircuts for young children, ensuring a comfortable experience at home.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fa-solid fa-user-tie"></i>
-                    <h3>Adult Haircuts & Styling</h3>
-                    <p>Precision cuts, trims, and classic grooming tailored to your style preferences.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fa-solid fa-person-cane"></i>
-                    <h3>Senior Home Visits</h3>
-                    <p>Convenient home-visit hair styling designed specifically for elderly clients.</p>
-                </div>
-                <div class="service-card">
-                    <i class="fa-solid fa-heart"></i>
-                    <h3>Challenging & Special Needs Care</h3>
-                    <p>Tailored barbering with extra time, attention, and patience for sensory or special requirements.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us -->
-    <section id="why-choose" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Why Choose Billy K's Mobile Barber?</h2>
-            </div>
-            <div class="features-grid">
-                <div class="feature">
-                    <div class="feature-icon"><i class="fa-solid fa-award"></i></div>
-                    <div>
-                        <h3>32+ Years Experience</h3>
-                        <p>Decades of expert barbering knowledge ensuring high quality with every cut.</p>
+    <!-- Section 3: Floating Price Range Card -->
+    <section id="pricing" class="pricing-section">
+        <div class="pricing-container">
+            <div class="price-card">
+                <h2 class="price-card-title">Price Range</h2>
+                <div class="price-grid">
+                    <div class="price-item">
+                        <span class="service-name">HOME HAIR CUT</span>
+                        <span class="service-dots"></span>
+                        <span class="service-price">AFFORDABLE</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="service-name">KIDS' & YOUNG CUTS</span>
+                        <span class="service-dots"></span>
+                        <span class="service-price">PATIENT CARE</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="service-name">SENIOR HOME VISIT</span>
+                        <span class="service-dots"></span>
+                        <span class="service-price">CONVENIENT</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="service-name">SPECIAL NEEDS CARE</span>
+                        <span class="service-dots"></span>
+                        <span class="service-price">TAILORED</span>
                     </div>
                 </div>
-                <div class="feature">
-                    <div class="feature-icon"><i class="fa-solid fa-car"></i></div>
-                    <div>
-                        <h3>Total Convenience</h3>
-                        <p>No traffic, no waiting in line. Premium barber services delivered straight to your home.</p>
-                    </div>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon"><i class="fa-solid fa-face-smile"></i></div>
-                    <div>
-                        <h3>Patient & Inclusive</h3>
-                        <p>Warm, welcoming service for every client—young, old, or clients needing extra care.</p>
-                    </div>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon"><i class="fa-solid fa-tags"></i></div>
-                    <div>
-                        <h3>Affordable Pricing</h3>
-                        <p>Competitive, accessible pricing without sacrificing professional quality.</p>
-                    </div>
+                <div class="price-note">
+                    <p>Prices calculated based on location in Pakenham, VIC and specific service needs.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section bg-alt">
-        <div class="container">
-            <div class="section-header">
-                <h2>Get In Touch</h2>
-                <p>Book your home visit today or send an inquiry.</p>
-            </div>
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <div class="info-item">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <div>
-                            <h4>Service Area</h4>
-                            <p>Warbler Street, Pakenham, VIC, Australia</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fa-solid fa-phone"></i>
-                        <div>
-                            <h4>Phone & WhatsApp</h4>
-                            <p><a href="tel:+61431540492">+61 431 540 492</a></p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fa-solid fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p><a href="mailto:billykoffman@gmail.com">billykoffman@gmail.com</a></p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fa-solid fa-clock"></i>
-                        <div>
-                            <h4>Hours</h4>
-                            <p>Always Open (By Appointment)</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="contact-cta-box">
-                    <h3>Ready for a Haircut at Home?</h3>
-                    <p>The fastest way to schedule an appointment is via WhatsApp or phone call.</p>
-                    <a href="https://wa.me/61431540492?text=Hi%20Billy,%20I'd%20like%20to%20book%20an%20appointment." target="_blank" class="btn btn-whatsapp-large">
-                        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
-                    </a>
-                    <a href="mailto:billykoffman@gmail.com" class="btn btn-email-large">
-                        <i class="fa-solid fa-envelope"></i> Send an Email
-                    </a>
-                </div>
-            </div>
-        </div>
+    <!-- Section 4: 5-Column Gallery Strip -->
+    <section id="gallery" class="gallery-strip">
+        <div class="gallery-col img-kid" title="Kid Cut"></div>
+        <div class="gallery-col img-cut1" title="Professional Barbering"></div>
+        <div class="gallery-col img-cut2" title="Modern Style"></div>
+        <div class="gallery-col img-cut3" title="Classic Fade"></div>
+        <div class="gallery-col img-cut4" title="Precision Trimming"></div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container footer-content">
-            <p>&copy; <span id="year"></span> Billy K's Mobile Barber Shop. All Rights Reserved.</p>
-            <p class="footer-sub">Pakenham, VIC, Australia</p>
+    <!-- Section 5: Dark Footer -->
+    <footer id="contact" class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col brand-col">
+                <div class="footer-logo">H</div>
+                <p><i class="fa-solid fa-location-dot"></i> Warbler street, Pakenham, VIC, Australia</p>
+                <p><i class="fa-solid fa-envelope"></i> billykoffman@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +61 431 540 492</p>
+            </div>
+            <div class="footer-col links-col">
+                <h4 class="footer-heading">BOOK NOW</h4>
+                <ul>
+                    <li><a href="https://wa.me/61431540492?text=Hi%20Billy,%20I'd%20like%20to%20book%20a%20mobile%20haircut." target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp Direct Chat</a></li>
+                    <li><a href="tel:+61431540492"><i class="fa-solid fa-phone"></i> Call +61 431 540 492</a></li>
+                    <li><a href="mailto:billykoffman@gmail.com"><i class="fa-solid fa-envelope"></i> Email Billy K</a></li>
+                </ul>
+            </div>
+            <div class="footer-col news-col">
+                <h4 class="footer-heading">OUR PROMISE</h4>
+                <p>32+ Years of professional experience. Always open by appointment. Patient and welcoming to all clients.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Billy K's Mobile Barber Shop &bull; Home Visits Pakenham, VIC</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
-</html>
+    </html>
+    
